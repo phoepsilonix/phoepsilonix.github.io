@@ -51,7 +51,7 @@ sudo pacman -S noto-fonts-emoji unicode-emoji nodejs-emojione
 #### 6.タッチパネルでコンテキストメニューの開き方を、右側のシングルタップにする。
 Adjusts how the context menu is opened on the touch screen.
 [Right click wont work on 18.04](https://discourse.ubuntubudgie.org/t/right-clickwont-work-on-18-04/279/2) より
-
+タッチパネルでサブメニュー（コンテキストメニュー）を表示する操作を調整できます。
 ```
 gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
