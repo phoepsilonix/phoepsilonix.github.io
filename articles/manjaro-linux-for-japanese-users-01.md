@@ -5,7 +5,7 @@ type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,Manjaro,arch]
 published: false
 ---
-# first step for Manjaro Linux for Japanese Users
+# First step for Manjaro Linux for Japanese Users
 
 at 2021-01-27
 ##### はじめの第一歩。これだけすれば、使えます。
