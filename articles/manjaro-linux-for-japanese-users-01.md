@@ -38,8 +38,18 @@ sudo pacman -S ipa-fonts noto-fonts-cjk
 
 #### 4.日本語入力をインストール
 Install Japanese input fcitx-mozc
+.xprofileという設定ファイルにGUIで使う日本語入力のInputMethodを指定します。
+昔の名残で、少し冗長ではありますが、いろんな環境で動くようにという配慮です。
 ```
 sudo pacman -S fcitx-mozc fcitx-configtool fcitx-table-other fcitx-table-extra
+cat - << EOF >> ~/.xprofile
+export LANG="ja_JP.UTF-8"
+export XMODIFIERS="@im=fcitx"
+export XMODIFIER="@im=fcitx"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export DefaultIMModule=fcitx
+EOF
 ```
 
 #### 5.絵文字フォントのインストール
