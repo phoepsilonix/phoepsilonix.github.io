@@ -1,5 +1,5 @@
 ---
-title: "Manjaro Linux for Japanese Users"
+title: "Manjaro Linux for Japanese Users: はじめの第一歩"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,Manjaro,arch]
