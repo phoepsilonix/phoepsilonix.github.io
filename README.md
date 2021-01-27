@@ -3,7 +3,7 @@ title: "Manjaro Linux for Japanese Users"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,Manjaro,arch]
-published: false
+published: true
 ---
 # First step for Manjaro Linux for Japanese Users
 
@@ -11,16 +11,15 @@ at 2021-01-27
 ##### はじめの第一歩。これだけすれば、使えます。
 
 Manjaro Linux Budgieをインストールしました。
-コミュニティエディションのBudgieのインストーラーには日本語フォントが入っていませんでした。その場合、ネットに接続していれば、フォントのインストールで対応可能です。下記、１−３を行うと良いと思います。
+コミュニティエディションのBudgieのインストーラーには日本語フォントが入っていませんでした。その場合、ネットに接続していれば、フォントのインストールで対応可能です。インストーラーを起動する前に、下記の１〜３を行うと日本語表示がされると思います。他のエディションでも、基本的に同じです。
 
-インストール後に行ったほうが良いことをまとめます。
-
+### インストール後に最初にすること。
 #### 1.パッケージの更新元ミラーサーバーを日本にする。
 Make update servers geographically close to each other.
 ```
-pacman-mirrors --geoip
+sudo pacman-mirrors --geoip
 または
-pacman-mirrors -c Japan #country
+sudo pacman-mirrors -c Japan #country
 ```
 
 #### 2.パッケージデータベースの更新
@@ -52,7 +51,7 @@ sudo pacman -S noto-fonts-emoji unicode-emoji nodejs-emojione
 #### 6.タッチパネルでコンテキストメニューの開き方を、右側のシングルタップにする。
 Adjusts how the context menu is opened on the touch screen.
 [Right click wont work on 18.04](https://discourse.ubuntubudgie.org/t/right-clickwont-work-on-18-04/279/2) より
-
+タッチパネルでサブメニュー（コンテキストメニュー）を表示する操作を調整できます。
 ```
 gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
