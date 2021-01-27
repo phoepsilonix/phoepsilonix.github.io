@@ -3,7 +3,7 @@ title: "Manjaro Linux for Japanese Users"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,Manjaro,arch]
-published: false
+published: true
 ---
 # First step for Manjaro Linux for Japanese Users
 
