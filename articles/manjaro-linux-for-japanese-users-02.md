@@ -3,7 +3,7 @@ title: "Manjaro Linux for Japanese Users: オフィス向けアプリ"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,Manjaro,libreoffice]
-published: false
+published: true
 ---
 # Second step for Manjaro Linux for Japanese Users
 
@@ -12,7 +12,7 @@ at 2021-01-28
 
 次にオフィス向けの表計算やワープロなどが一通り揃った、LibreOfficeをインストールします。
 日本語メニューに対応しています。
-ちなみにonlyofficeというアプリが初期状態でありましたが、あまりなじみがないので、libreofficeを導入しました。
+ちなみにonlyofficeというアプリが初期状態でありましたが、あまりなじみがないのでlibreofficeを導入しました。
 
 ### ソフトウェアの追加と削除
 ![ソフトウェアの追加と削除](https://storage.googleapis.com/zenn-user-upload/8b8f2ersvsl6fqi2oslbmkffsp6g)
