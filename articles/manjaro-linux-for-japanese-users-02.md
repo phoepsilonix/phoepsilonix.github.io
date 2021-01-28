@@ -8,7 +8,7 @@ published: true
 # Second step for Manjaro Linux for Japanese Users
 
 at 2021-01-28
-##### オフィス向けアプリ
+## オフィス向けアプリ
 
 次にオフィス向けの表計算やワープロなどが一通り揃った、LibreOfficeをインストールします。
 日本語メニューに対応しています。
