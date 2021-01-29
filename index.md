@@ -11,9 +11,9 @@ marp: true
 
 at 2021-01-29
 
-[はじめの第一歩](file:///home/phoep/zenn/manjaro/articles/manjaro-linux-for-japanese-users-01.html)
+[はじめの第一歩](./articles/manjaro-linux-for-japanese-users-01.html)
 
-[オフィス向けアプリ](file:///home/phoep/zenn/manjaro/articles/manjaro-linux-for-japanese-users-02.html)
+[オフィス向けアプリ](./articles/manjaro-linux-for-japanese-users-02.html)
 
 ###### 番外
-[シェルでマッチした部分を取り出したい](file:///home/phoep/zenn/manjaro/articles/shell-awk-match.html)
+[シェルでマッチした部分を取り出したい](./articles/shell-awk-match.html)
