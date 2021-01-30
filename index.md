@@ -17,3 +17,6 @@ at 2021-01-29
 
 ###### 番外
 [シェルでマッチした部分を取り出したい](./articles/shell-awk-match)
+
+# スタート地点
+[自分を立ち直らせる言葉:初心表明](./articles/initial-heart-shows)
