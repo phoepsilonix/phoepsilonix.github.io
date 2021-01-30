@@ -4,7 +4,7 @@ emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [important,Japan]
 lang: ja-JP
-published: false
+published: true
 marp: true
 ---
 # 初心表明
