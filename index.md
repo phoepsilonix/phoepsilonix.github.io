@@ -15,6 +15,8 @@ at 2021-01-29
 
 [オフィス向けアプリ](./articles/manjaro-linux-for-japanese-users-02)
 
+[２要素認証で安心ログイン](./articles/linux-2fa-totp)
+
 ###### 番外
 [シェルでマッチした部分を取り出したい](./articles/shell-awk-match)
 
