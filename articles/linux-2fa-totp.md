@@ -1,5 +1,5 @@
 ---
-title: "２要素認証で安心リモートログイン"
+title: "２要素認証で安心ログイン"
 emoji: "🇯🇵"
 type: " tech" # tech: 技術記事 / idea: アイデア
 topics: [2fa,totp,pam,ssh]
