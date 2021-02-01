@@ -19,7 +19,7 @@ at 2021-02-01
 
 
 # 万一に備えて
-[ブータブルISOイメージを簡単に使えます](./articles/bootable-usb-iso-ventoy.md)
+[ブータブルISOイメージを簡単に使えます](./articles/bootable-usb-iso-ventoy)
 
 ###### 番外
 [シェルでマッチした部分を取り出したい](./articles/shell-awk-match)
