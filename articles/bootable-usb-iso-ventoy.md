@@ -1,5 +1,5 @@
 ---
-title: "bootable-usb-solution-ventoy"
+title: "ブータブルISOイメージを簡単に使えます"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [bootable,iso,usb,grub]
