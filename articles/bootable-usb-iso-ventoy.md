@@ -2,9 +2,9 @@
 title: "bootable-usb-solution-ventoy"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: [bootable,iso,usb,grub?]
+topics: [bootable,iso,usb,grub]
 lang: ja-JP
-published: false
+published: true
 marp: true
 ---
 # A New Bootable USB Solution
@@ -18,11 +18,10 @@ USBディスクに、セキュアブート対応でGPTパーティションのve
 ```
 sudo Ventoy2Disk.sh -i -s -g /dev/sdX
 ```
-USBの中味は消えますよ！
+USBディスクの中味は消えますよ！
 
 ---
-ventoyが対応しているファイルシステムならisoイメージをコピーする場所は、再フォーマットできます。
-（特にこだわりがなければ、デフォルトでいいと思います。）
+ventoyが対応しているファイルシステムならisoイメージをコピーする場所は、再フォーマットできます。（特にこだわりがなければ、デフォルトでいいと思います。）
 
 isoファイルをコピーするだけで、いろんなブート可能なイメージファイルを試せるなんて、素敵ですね。
 公式サイトみたら、これだけ[テスト済み](https://www.ventoy.net/en/isolist.html)なんだというので驚きますし、安心できます。
@@ -36,5 +35,3 @@ USBブートさえできてくれれば、レスキューできる。
 ありがとう。ありがとう。
 
 ほんとに、足を向けて寝れませんよ。ありがたやー。
-
-
