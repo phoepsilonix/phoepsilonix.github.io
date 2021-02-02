@@ -21,10 +21,12 @@ at 2021-02-01
 # 万一に備えて
 [ブータブルISOイメージを簡単に使えます](./articles/bootable-usb-iso-ventoy)
 
+---
 ###### 番外
 [シェルでマッチした部分を取り出したい](./articles/shell-awk-match)
+
 [自動ログアウトのオンオフ(GNOME)](./articles/auto-logout-gnome)
 
----
+
 # スタート地点
 [自分を立ち直らせる言葉:初心表明](./articles/initial-heart-shows)
