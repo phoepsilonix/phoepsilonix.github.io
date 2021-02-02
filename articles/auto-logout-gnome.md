@@ -2,19 +2,11 @@
 title: "自動ログアウトの有効、無効を切り替える(GNOME)"
 emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: [autologout,screensaver,sreenlock,enable,disable,gnome]
+topics: [autologout,screensaver,disable,gnome]
 lang: ja-JP
 published: true
 marp: true
 ---
-<!-- コメント：画像を中央に配置する centerコマンドを有効に -->
-<!-- <style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style> -->
-
 # 自動ログアウトをオンオフしたい。
 auto logout(screen lock) enbale/disable (GNOME)
 
@@ -30,7 +22,7 @@ GNOMEに落ち着きました。
 
 通知パネルのコーヒーカップのアイコンから「スクリーンセーバーの無効化」で自動ログアウトが無効化できます。カップから湯気が出ていたら無効です。
 この状態だと、放置していてもログアウトしないので、ロックもかかりません。
-![height:96px](./auto-logout-gnome.png)
+![](https://storage.googleapis.com/zenn-user-upload/nihs04lx7nrmykiszfco9nikiec5)
 
 ---
 自動ログアウトの機能を有効に戻す場合には、同じアイコンでDisable Caffeinを選びます。
