@@ -4,9 +4,17 @@ emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [autologout,screensaver,sreenlock,enable,disable,gnome]
 lang: ja-JP
-published: false
+published: true
 marp: true
 ---
+<!-- コメント：画像を中央に配置する centerコマンドを有効に -->
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 # 自動ログアウトをオンオフしたい。
 auto logout(screen lock) enbale/disable (GNOME)
 
@@ -15,18 +23,22 @@ at 2021-02-02
 GNOMEに落ち着きました。
 だいぶ印象が変わりました。
 
-さて本題。
 長時間、ラップトップに向かって作業していると、自動ログアウトが有効なほうが良いケースもありますし、その逆もあります。しばらく放置したら、ロックがかかって、パスワード認証が必要な状態にしたほうが良いかどうか、です。
 
+---
 現在のGNOMEは、自動ログアウトの機能自体をオンオフで切り替えられるようになっています。
 
 通知パネルのコーヒーカップのアイコンから「スクリーンセーバーの無効化」で自動ログアウトが無効化できます。カップから湯気が出ていたら無効です。
 この状態だと、放置していてもログアウトしないので、ロックもかかりません。
+<br/>
+![center height:96px](./auto-logout-gnome.png)
 
-![auto](./auto-logout-gnome.png)
-
+---
 自動ログアウトの機能を有効に戻す場合には、同じアイコンでDisable Caffeinを選びます。
 
 ちょっと日本語も英語も、おかしな表現になってはいますが、これで要件は満たせました。
 GUIで切り替えられるのは、助かりますね。
 長時間の印刷ジョブとか、今はありませんが（笑）
+
+Would you like to take a coffee break?
+
