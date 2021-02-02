@@ -23,6 +23,7 @@ at 2021-02-01
 
 ###### 番外
 [シェルでマッチした部分を取り出したい](./articles/shell-awk-match)
+[自動ログアウトのオンオフ(GNOME)](./articles/auto-logout-gnome)
 
 ---
 # スタート地点
