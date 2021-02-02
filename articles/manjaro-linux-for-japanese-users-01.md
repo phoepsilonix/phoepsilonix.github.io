@@ -58,6 +58,15 @@ export DefaultIMModule=fcitx
 EOF
 ```
 
+wayland(GNOME)の場合
+```
+cat - << EOF >> ~/.pam_environment
+GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx
+EOF
+```
+
 ---
 # 5. 絵文字フォントのインストール
 I also love emoji.
