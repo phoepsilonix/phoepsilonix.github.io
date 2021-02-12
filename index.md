@@ -8,7 +8,7 @@ published: true
 marp: true
 ---
 
-# Ubuntu (GNOME)
+# [Ubuntu (GNOME)](https://phoepsilonix.github.io/)
 
 at 2021-02-12
 
