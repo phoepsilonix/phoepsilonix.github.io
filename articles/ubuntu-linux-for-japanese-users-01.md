@@ -4,7 +4,7 @@ emoji: "🇯🇵"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Linux,Japan,newbie,ubuntu,gnome]
 lang: ja-JP
-published: false
+published: true
 marp: true
 ---
 
