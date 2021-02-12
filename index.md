@@ -12,7 +12,9 @@ marp: true
 
 at 2021-02-12
 
-[Ubuntu 20.10 最初の一歩](./articles/ubuntu-linux-for-japanese-users-01)
+# Ubuntu 20.10
+[最初の一歩](./articles/ubuntu-linux-for-japanese-users-01)
+[ブラウザ紹介](./articles/ubuntu-linux-for-japanese-users-02)
 
 # 万一に備えて
 [ブータブルISOイメージを簡単に使えます](./articles/bootable-usb-iso-ventoy)
