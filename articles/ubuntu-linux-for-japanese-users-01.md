@@ -30,24 +30,37 @@ sudo apt upgrade
 ```
 
 # 日本語入力の設定
+
+fcitxのインストール
+```
+sudo apt install fcitx-mozc --install-recommends fcitx-tools fcitx-m17n
+```
+
 設定画面で、地域と言語を選び＋ボタンを押して、日本語(mozc)を追加します。
-その次に、インストールされている言語の管理を押して、キーボード入力に使うIMシステムをibusにします。
+その次に、インストールされている言語の管理を押して、キーボード入力に使うIMシステムをfcitxにします。
+
+fcitxの起動
+```
+fcitx -r
+```
+fcitxが起動されたら、設定の入力ソースの確認を行います。
+mozcが加わっていたら、無事インストール成功です。
 
 dot file２つも編集しておきます。
 
 ```.xprofile
 export LANG="ja_JP.UTF-8"
-export XMODIFIERS="@im=ibus"
-export XMODIFIER="@im=ibus"
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export DefaultIMModule=ibus
+export XMODIFIERS="@im=fcitx"
+export XMODIFIER="@im=fcitx"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export DefaultIMModule=fcitx
 ```
 
 ```.pam_environment
-GTK_IM_MODULE DEFAULT=ibus
-QT_IM_MODULE  DEFAULT=ibus
-XMODIFIERS    DEFAULT=\@im=ibus
+GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx
 ```
 
 ---
