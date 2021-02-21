@@ -44,10 +44,22 @@ fcitxの起動
 fcitx -r
 ```
 fcitxが起動されたら、設定の入力ソースの確認を行います。
-mozcが加わっていたら、無事インストール成功です。
+mozcが加わっていることを確認できたら、
+入力ソースの設定を行います。
 
-dot file２つも編集しておきます。
+```
+im-config
+```
+で、はいを選びながら、選択画面が出てきます。
+fcitxを選んで、はい、で終了させます。
 
+最後に、fcitxの自動起動を設定します。
+自動起動するアプリケーションが、アクティビティのすべてのアプリの中にあるので、立ち上げます。その中に、im-launchという項目があるので、編集します。
+im-launch trueとなっている部分をim-launch fcitxと書き換えましょう。
+
+最後に、いろいろなアプリケーションで日本語入力ができるように、dot file２つも編集しておきます。
+
+.xprofile
 ```.xprofile
 export LANG="ja_JP.UTF-8"
 export XMODIFIERS="@im=fcitx"
@@ -57,6 +69,7 @@ export QT_IM_MODULE=fcitx
 export DefaultIMModule=fcitx
 ```
 
+.pam_environment
 ```.pam_environment
 GTK_IM_MODULE DEFAULT=fcitx
 QT_IM_MODULE  DEFAULT=fcitx
