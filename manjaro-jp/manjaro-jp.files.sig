@@ -1,0 +1,1 @@
+manjaro-jp.files.tar.xz.sig
